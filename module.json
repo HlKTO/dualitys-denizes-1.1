@@ -1,10 +1,11 @@
 {
-  "id": "dualitys-denizes-1.1",
+  "id": "dualitys-denizes-v11",
   "title": "🐉🔮Duality's Denizes🔮🐉",
   "version": "1.1.0",
   "compatibility": {
     "minimum": "13",
-    "verified": "13"
+    "verified": "13",
+    "maximum": "14"
   },
   "description": "<p>Модуль, в котором собраны неигровые персонажи для системы Daggerheart (Foundryborne).</p>",
   "authors": [
@@ -14,11 +15,8 @@
       "flags": {}
     }
   ],
-  
-
-  "manifest": "https://raw.githubusercontent.com/HlKTO/dualitys-denizes/master/module.json", 
-  "download": "https://github.com/HlKTO/dualitys-denizes/releases/download/v1.0.0/dualitys-denizes.zip",
-  
+  "manifest": "https://raw.githubusercontent.com/HlKTO/dualitys-denizes-1.1/master/module.json",
+  "download": "https://github.com/HlKTO/dualitys-denizes-1.1/releases/download/v1.1/dualitys-denizes-v11.zip",
   "flags": {
     "canUpload": true
   },
