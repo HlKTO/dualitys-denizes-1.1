@@ -1,0 +1,82 @@
+{
+  "id": "dualitys-denizes-1.1",
+  "title": "🐉🔮Duality's Denizes🔮🐉",
+  "version": "1.1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p>Модуль, в котором собраны неигровые персонажи для системы Daggerheart (Foundryborne).</p>",
+  "authors": [
+    {
+      "name": "NIKTOken",
+      "url": "https://boosty.to/niktoart",
+      "flags": {}
+    }
+  ],
+  
+
+  "manifest": "https://raw.githubusercontent.com/HlKTO/dualitys-denizes/master/module.json", 
+  "download": "https://github.com/HlKTO/dualitys-denizes/releases/download/v1.0.0/dualitys-denizes.zip",
+  
+  "flags": {
+    "canUpload": true
+  },
+  "packFolders": [
+    {
+      "name": "🐉 NIKTO | DD's Compendium 🔮",
+      "sorting": "a",
+      "color": "#9400d3",
+      "folders": [],
+      "packs": [
+        "DH-adv",
+        "DH-env"
+      ]
+    }
+  ],
+  "packs": [
+    {
+      "name": "DH-adv",
+      "label": "DH Adversaries | RU",
+      "path": "packs/DH-adv",
+      "type": "Actor",
+      "system": "daggerheart",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "DH-env",
+      "label": "DH Environments | RU",
+      "path": "packs/DH-env",
+      "type": "Actor",
+      "system": "daggerheart",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "daggerheart",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "daggerheart-plus",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "daggerheart-ru",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  }
+}
